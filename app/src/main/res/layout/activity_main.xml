@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="36dp"
+    android:layout_marginBottom="36dp"
+    android:keepScreenOn="true"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonImport1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="Audio File 1"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:background="@drawable/button_gradient_1"
+        android:elevation="8dp"
+        android:stateListAnimator="@null"/>
+
+    <Button
+        android:id="@+id/buttonImport2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="Audio File 2"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:background="@drawable/button_gradient_1"
+        android:elevation="8dp"
+        android:stateListAnimator="@null"/>
+
+    <Button
+        android:id="@+id/buttonImport3"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="Audio File 3"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:background="@drawable/button_gradient_1"
+        android:elevation="8dp"
+        android:stateListAnimator="@null"/>
+
+    <Button
+        android:id="@+id/buttonImport4"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="Audio File 4"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:background="@drawable/button_gradient_1"
+        android:elevation="8dp"
+        android:stateListAnimator="@null"/>
+
+    <Button
+        android:id="@+id/buttonImport5"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="Audio File 5"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:background="@drawable/button_gradient_1"
+        android:elevation="8dp"
+        android:stateListAnimator="@null"/>
+
+    <Button
+        android:id="@+id/buttonImport6"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="Audio File 6"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:background="@drawable/button_gradient_1"
+        android:elevation="8dp"
+        android:stateListAnimator="@null"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:progress="33"
+        android:progressTint="@color/darker_grey"
+        android:thumbTint="@color/darker_grey" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/textCurrentTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="0:00" />
+
+        <TextView
+            android:id="@+id/textTotalTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="0:00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/buttonPause"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:importantForAccessibility="no"
+            android:src="@drawable/pause"
+            app:tint="@color/darker_grey" />
+
+        <ImageView
+            android:id="@+id/buttonPlay"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/play"
+            app:tint="@color/darker_grey"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/buttonStop"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:importantForAccessibility="no"
+            android:src="@drawable/stop"
+            app:tint="@color/darker_grey" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonImport"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="Import New Audio File"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:background="@drawable/button_gradient_1"
+        android:elevation="8dp"
+        android:stateListAnimator="@null"/>
+</LinearLayout>
