@@ -39,6 +39,8 @@ Changed name from TestApplication1 to MarkLoopPlayer
     https://www.geeksforgeeks.org/android/different-ways-to-change-the-project-name-in-android-studio/
     https://www.reddit.com/r/androiddev/comments/ymphwy/changing_project_name/
     https://stackoverflow.com/questions/18276872/change-project-name-on-android-studio
+Uploaded to GitHub
+    https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#using-github-cli
 
 
 TODO: test with multiple copies of the same file to verify smoothness of seeking
@@ -64,7 +66,6 @@ TODO: Allow user to store multiple banks of related files and swap between them
 TODO: Allow user to connect to streaming resources instead of on the phone
 
 **Publishing**
-TODO: clean up and put on github
 TODO: clean up and put on google play store
 
 
