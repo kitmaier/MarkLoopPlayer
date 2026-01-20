@@ -41,6 +41,12 @@ Changed name from TestApplication1 to MarkLoopPlayer
     https://stackoverflow.com/questions/18276872/change-project-name-on-android-studio
 Uploaded to GitHub
     https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#using-github-cli
+Setup with Firebase
+    https://firebase.google.com/docs/android/setup
+    https://stackoverflow.com/questions/37358340/should-i-add-the-google-services-json-from-firebase-to-my-repository
+    https://firebase.google.com/docs/app-distribution/android/distribute-console?apptype=apk#step_1_build_your_app
+
+
 
 
 TODO: test with multiple copies of the same file to verify smoothness of seeking
